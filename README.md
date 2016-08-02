@@ -49,23 +49,7 @@ Our function will find a container that we specify, in this case it is image-flo
 When winScroll is greater than the position of the top of the container, our function will add is showing to image-flow
 and add a setTimeout so each image flows in right after the other.
 
-<!--$(window).scroll(function(){-->
+Hint * look to my repo for the code.
 
-<!--  var winScroll = $(this).scrollTop();-->
-
-<!--  if(winScroll > $('.image-flow-container').offset().top - ($(window).height() / 2)) {-->
-<!--      $('.image-flow').each(function(i){-->
-<!--        setTimeout(function(){-->
-<!--          $('.image-flow').eq(i).addClass('is-showing');-->
-<!--        }, 150 * (i+1));-->
-<!--      });-->
-<!--    }-->
-
-<!--    if(winScroll > $('.fill-header').offset().top - ($(window).height() / 2)) {-->
-<!--        $('.image-flow').each(function(i){-->
-<!--          setTimeout(function(){-->
-<!--            $('.title').eq(i).addClass('is-showing');-->
-<!--          }, 150 * (i+1));-->
-<!--        });-->
-<!--      }-->
-<!--});-->
+NOTE: if your images are laggy when they slide in, you may need to compress your images to 
+make the file size smaller.
