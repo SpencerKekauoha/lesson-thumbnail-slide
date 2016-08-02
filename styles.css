@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+
+.fill-header {
+  height: 80vh;
+  width: 2vw;
+  background: #fff;
+}
+
+.title {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.image-flow-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.image-flow-title-container {
+  font-family: 'Sacramento', cursive;
+  font-weight: 600;
+  font-size: 100px;
+  color: #333;
+  text-align: center;
+}
+
+.image-flow {
+  height: 30vh;
+  width: 20vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.is-showing {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all 0.3s ease-in-out;
+}
